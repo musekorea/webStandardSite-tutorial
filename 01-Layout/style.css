@@ -1,0 +1,45 @@
+body {
+  background-color: #e9e9e9;
+}
+div {
+  text-align: center;
+  font-size: 30px;
+}
+#wrap {
+  width: 1000px;
+  height: 900px;
+  margin: 0 auto;
+}
+#header {
+  width: 1000px;
+  height: 100px;
+  background-color: hotpink;
+  line-height: 100px;
+}
+#nav {
+  width: 1000px;
+  height: 100px;
+  background-color: lightblue;
+  line-height: 100px;
+}
+#side {
+  width: 300px;
+  height: 600px;
+  background-color: lemonchiffon;
+  float: left;
+  line-height: 600px;
+}
+#contents {
+  width: 700px;
+  height: 600px;
+  background-color: lightseagreen;
+  float: left;
+  line-height: 600px;
+}
+#footer {
+  width: 1000px;
+  height: 100px;
+  background-color: lightslategrey;
+  float: left;
+  line-height: 100px;
+}
