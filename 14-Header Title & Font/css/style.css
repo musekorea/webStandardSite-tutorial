@@ -1,0 +1,107 @@
+@charset "utf-8";
+/*====Skip Navigation====*/
+#skip {
+  position: relative;
+}
+#skip a {
+  position: absolute;
+  left: 0;
+  top: -35px;
+  border: 1px solid white;
+  background-color: #333;
+  line-height: 30px;
+  width: 160px;
+  text-align: center;
+  color: white;
+}
+#skip a:active {
+  top: 0;
+}
+#skip a:focus {
+  top: 0;
+}
+/*=======Layout=========*/
+#wrap {
+  width: 100%;
+}
+#header {
+  width: 100%;
+  height: 325px;
+  background-image: url(../img/header_bg.jpg);
+  background-repeat: repeat-x;
+  background-position: top center;
+}
+#contents {
+  width: 100%;
+  height: 800px;
+  background-color: #222;
+}
+#footer {
+  width: 100%;
+  height: 200px;
+  background-color: #333;
+}
+/*=====Content Layout=======*/
+#content_nav {
+  width: 100%;
+  height: 200px;
+  background-color: #333;
+}
+#content_title {
+  width: 100%;
+  height: 200px;
+  background-color: #444;
+}
+#content_banner {
+  width: 100%;
+  height: 200px;
+  background-color: #555;
+}
+#content-content {
+  width: 100%;
+  height: 200px;
+  background-color: #666;
+}
+
+/*======Container===========*/
+.container {
+  width: 990px;
+  margin: 0 auto;
+  height: inherit;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/*======== Header ===========*/
+.header {
+}
+#header .header-menu {
+  text-align: right;
+}
+#header .header-menu a {
+  color: white;
+  display: inline-block;
+  padding: 10px 0px 10px 13px;
+}
+#header .header-menu a:hover {
+  color: #666;
+}
+#header .header-title {
+  text-align: center;
+}
+#header .header-title h1 {
+  background-color: #4aa8d4;
+  font-size: 28px;
+  color: white;
+  padding: 5px 20px 6px 20px;
+  margin-top: 40px;
+  display: inline-block;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+#header .header-title a {
+  background-color: #2698cb;
+  font-size: 18px;
+  color: white;
+  padding: 5px 20px 6px 20px;
+  margin-top: -5px;
+}
